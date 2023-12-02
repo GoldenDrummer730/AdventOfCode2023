@@ -14,7 +14,7 @@ conv = {
     'nine': '9'
 }
 
-with open(r'AdventOfCode2023\Day 1\input.txt') as input:
+with open(r'\Day 1\input.txt') as input:
     for line in input:
         pattern = re.compile(
             '(?=(one|two|three|four|five|six|seven|eight|nine|\d))'
